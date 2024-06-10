@@ -1,0 +1,83 @@
+body {
+    background: url(./Paris.jpg);
+    background-color: white;
+    margin: 0;
+    
+}
+
+h1 {
+    opacity:100%;
+    color: black;
+}
+
+.top {
+    background-color: white;
+    padding: 10px;
+    opacity: 50%;
+    margin: 20px;
+    border: 2px solid black ;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.button {
+    width: fit-content;
+    padding: 0px 10px;
+    font-family: Geneva;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    margin: 5px;
+    
+}
+
+.title {
+    opacity: 50%;
+    background-color: white;
+    width: fit-content;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    
+}
+
+td{
+    background-color: white;
+    padding: 5px;
+    font-family: Geneva;
+    border: 2px solid black;
+    margin: 0;
+    white-space: nowrap;
+    text-align: center;
+
+    
+}
+
+th {
+    background-color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: large;
+    font-family: Geneva;
+    border: 2px solid black;
+    margin: 0;
+    white-space: nowrap;
+} 
+    
+table {
+}
+
+.blank {
+    opacity: 0;
+}
+
+.table {
+    max-width: fit-content;
+    overflow: scroll;
+    margin: auto;
+}

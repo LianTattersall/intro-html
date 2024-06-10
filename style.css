@@ -12,7 +12,7 @@ img {
 
 .headings {
     text-align: center;
-    font-family: sans-serif;
+    font-family: Geneva;
 }
 
 a {
@@ -24,14 +24,14 @@ a {
 
 li {
     color: black;
-    font-family: sans-serif;
+    font-family: Geneva;
 }
 
 .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-family: sans-serif;
+    font-family: Geneva;
 }
 
 .flex-container div {
@@ -82,4 +82,32 @@ footer {
     flex-direction: column;
     justify-content: space-evenly ;
     align-items: baseline;
+}
+
+.top {
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    border-bottom: 5px dotted black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 81.5px;
+    align-items: center;
+}
+
+
+ 
+body {
+    margin: 0;
+}
+
+.button {
+    background-color: darkseagreen;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius:10%;
+    font-family: Geneva;
+    margin: 10px;
 }
